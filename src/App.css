@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.task-tracker{
+  width: 30%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E8007D ;
+  height: max-content;
+}
+
+.tasks{
+  padding: 1rem 2rem;
+  background-color: inherit;
+  margin: auto;
+  width: 100%;
+}
+

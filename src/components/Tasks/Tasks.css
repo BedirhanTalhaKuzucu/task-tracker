@@ -1,0 +1,41 @@
+*{
+    background-color: inherit;
+}
+
+.tasks{
+    padding: 1rem 2rem;
+    background-color: inherit;
+    margin: auto;
+    width: 100%;
+}
+
+
+.task-item{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    margin-top: 0.5rem;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 0.5rem;
+    align-items: center;
+    
+}
+
+.done-task{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    margin-top: 0.5rem;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 0.5rem;
+    align-items: center;
+    text-decoration: line-through;
+    color: brown;
+
+}
+
+
+
+span{
+    font-size: 1.5rem;
+}
