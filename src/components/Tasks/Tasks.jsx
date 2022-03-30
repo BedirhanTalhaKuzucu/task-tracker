@@ -8,12 +8,18 @@ function Tasks({taskInput, dateInput, arr}) {
 const [display, setDisplay] = useState(true);
 const [style, setStyle] = useState(true);
 
-const removeTask = () => {
+function deleteItem() {
     arr.find((item)=> {
-        if (item.task === taskInput & item.date == dateInput) {
+        if (item.task === taskInput & item.date === dateInput) {
             let index =arr.indexOf(item);
             arr.splice(index,1)
-        }});
+        }})
+}
+
+
+
+const removeTask = () => {
+    deleteItem();
     setDisplay(!display)
 }
 
