@@ -11,6 +11,7 @@
 
 
 .task-item{
+    cursor: pointer;
     display: grid;
     grid-template-columns: 7fr 1fr;
     margin-top: 0.5rem;
@@ -21,17 +22,10 @@
     
 }
 
-.done-task{
-    display: grid;
-    grid-template-columns: 7fr 1fr;
-    margin-top: 0.5rem;
-    background-color: aliceblue;
-    width: 100%;
-    padding: 0.5rem;
-    align-items: center;
-    text-decoration: line-through;
-    color: brown;
-
+.done{
+   border-left: 10px solid rgb(102, 18, 77);
+   text-decoration:line-through;
+   background-color: cadetblue;
 }
 
 
