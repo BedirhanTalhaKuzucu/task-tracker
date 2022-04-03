@@ -10,7 +10,7 @@ function AddTask({updateInput}) {
    if (dateinfo ==="" || taskinfo ==="") {
      alert("please enter the exact task and time")
    }else{
-    updateInput({task:taskinfo , date:dateinfo,});
+    updateInput({text:taskinfo , day:dateinfo,});
     setdateinfo("");
     settaskinfo("");
    }

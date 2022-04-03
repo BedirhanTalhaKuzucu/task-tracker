@@ -15,13 +15,12 @@ const [style, setStyle] = useState(true);
     return (
     <div className={`task-item ${style ? "" : "done" }`} onClick={()=> setStyle(!style)} >
             <div>
-                <h4>{index+1}) {taskData.task} </h4>
-                <p>{taskData.date}</p>
+                <h4>{index+1}) {taskData.text} </h4>
+                <p>{taskData.day}</p>
             </div>
             <span onClick={() =>deleteTask(taskData.id) }><FaWindowClose/></span>
     </div>
-    
-    )
+)
 }
 
 export default Tasks
